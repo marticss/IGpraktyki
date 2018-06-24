@@ -10,7 +10,8 @@ napis INFINIY GROUP w headerze wejdzie na ciemne tło i będzie mało czytelny. 
 
 !!!poprawić mapę. z lewej strony błąd grafika. DONE
 
-!!! w safari cien pod buttonami/ usunąć
+!!!pliki css nie są minifikowane w celu zachowania czytelnosci
+https://cssminifier.com/ 
 
 !!! zmniejszyć wagę png https://tinypng.com/
     Internet Explorer 6 ignoruje transparency png i wyświetla solid kolor. Po uyciu TinyPNG ten problem znika.
