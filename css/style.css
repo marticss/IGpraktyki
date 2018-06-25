@@ -658,7 +658,6 @@ input {
   border-bottom: 1px solid #292929;
   font-size: 70%;
   cursor: text;
-  
 }
 
 .ble input,
@@ -666,7 +665,10 @@ input {
   width: 180px;
 }
 
-.ble, .ble p, .ble2, .ble2 p {
+.ble,
+.ble p,
+.ble2,
+.ble2 p {
   display: inline-block;
 }
 
@@ -676,25 +678,27 @@ label {
   pointer-events: none;
   color: gray;
 }
+
 .ble label {
   top: 320px;
 }
+
 .ble2 label {
   top: 385px;
 }
 
-.ble input:focus ~ label 
-input.hideimput ~ label {
+.ble input:focus~label input.hideimput~label {
   top: 350px;
   font-size: 50%;
   color: #62c017;
 }
-.ble2 input:focus ~ label {
-  top:415px;
+
+.ble2 input:focus~label {
+  top: 415px;
   font-size: 50%;
   color: #62c017;
-
 }
+
 .backto {
   position: fixed;
   display: grid;
