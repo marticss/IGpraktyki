@@ -35,11 +35,11 @@ schodzą się do siebie na małych
 ekranach i trzeba to było idealnie dopasować
 
 - scroll to check point nie działa. 
-  /jquery $("window").scroll()/ ad brakepoints in: 1/5, 2/5, 3/5 ,4/5, 5/5 
+  /jquery $("window").scroll()/ ad brakepoints in: 1/5, 2/5, 3/5 ,4/5, 5/5 poprawic
 
-- behavior: smooth; nie działa ani przy banerze cookies ani przy scroll
+- behavior: smooth; nie działa ani przy banerze cookies ani przy scroll poprawic
 
-- poprawić key frames na PRAKTYKI i INFINITY GROUP. animacja powinna krązyć. wjezdzać z lewej znikać uciekając do prawej prawej.
+- poprawić key frames na PRAKTYKI i INFINITY GROUP. animacja powinna krązyć. wjezdzać z lewej znikać uciekając do prawej.
 
 #new
 
