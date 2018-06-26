@@ -660,15 +660,15 @@ input {
   cursor: text;
 }
 
-.ble input,
-.ble2 input {
+.contact-labels input,
+.contact-labels2 input {
   width: 180px;
 }
 
-.ble,
-.ble p,
-.ble2,
-.ble2 p {
+.contact-labels,
+.contact-labels p,
+.contact-labels2,
+.contact-labels2 p {
   display: inline-block;
 }
 
@@ -679,21 +679,23 @@ label {
   color: gray;
 }
 
-.ble label {
+.contact-labels label {
   top: 320px;
 }
 
-.ble2 label {
+.contact-labels2 label {
   top: 385px;
 }
 
-.ble input:focus~label input.hideimput~label {
+.contact-labels input:focus ~label,
+input.stay ~label {
   top: 350px;
   font-size: 50%;
   color: #62c017;
 }
 
-.ble2 input:focus~label {
+.contact-labels2 input:focus~label,
+input.stay2~label {
   top: 415px;
   font-size: 50%;
   color: #62c017;
