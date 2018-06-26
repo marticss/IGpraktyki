@@ -44,7 +44,7 @@ ekranach i trzeba to było idealnie dopasować
 - flex nie działa przy floating input. sprawdzic dlaczego i jak to naprawić. 
 
 - dodać validator adresu email / ("input[type='email']") if @ true else false error
-  + validator numeru / ("input[type='number']") 
+  + validator numeru / ("input[type='number']") .checkValidity()
 
 #newthings
 
